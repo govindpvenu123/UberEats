@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif,'poppins';
+}
+.header{
+    height: 100vh;
+    background: url("Images/banner.png"),no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 35px 42px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 170px;
+    cursor: pointer;
+    padding-left: 30px;
+}
+.login-btn{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    padding:8px 20px;
+}
+.user{
+    width: 20px;
+    height: 20px;
+}
+.signup-btn{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    padding:8px 20px;
+}
+.header-content{
+    padding-top: 315px;
+}
+
+.search-bar{
+    height: 3.5rem;
+    width: 35rem;
+    background-color: white;
+    
+}
+.food i{
+    padding-top: 1.25rem;
+    padding-left: 1rem;
+}
+.food input{
+    border: 0;
+    padding-top: 1.25rem;
+    padding-left: 1rem;
+    color: grey;
+    font-size: 18px;
+}
+.food{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.food button{
+    height: 3.5rem;
+    width: 8rem;
+    color: white;
+    font-size: 18px;
+    background-color: black;
+    border: 0;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.drop-down{ 
+    padding-right: 4rem;
+}
+.drop-down button{
+    cursor: pointer;
+}
+.food{
+    display: flex;
+    gap: .5rem;
+}
+.header-content a{
+    color: black;
+}
+.header-content h1{
+    font-size: 50px;
+    font-weight: 510;
+}
+.location{
+    width: 20px;
+    height: 20px;
+}
+.middle{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+    grid-gap: 30px;
+    padding: 33px 0px;
+}
+.middle div img{
+    width: 100%;
+    padding-bottom: 5px;
+}
+.middle div a{
+    color: black;
+}
+.middle div h2{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.container{
+    padding: 35px 42px;
+}
+.map-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.map-heading div h1{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.map-heading div a{
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+}
+.cities{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+.cities div li{
+    list-style: none;
+    padding: 20px 0;
+}
+
+.countries div li{
+    list-style: none;
+    padding: 20px 0;
+}
+.countries{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+hr{
+    background: gainsboro;
+    height: 1px;
+    border: 0;
+    margin: 20px 0;
+}
+.playstore{
+    height: 40px;
+    width: 130px;
+}
+.logo-2{
+    width: 140px;
+    cursor: pointer;
+    padding-bottom: 188px;
+}
+.footer-1{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+.footer-1-list{
+    display: flex;
+    padding-bottom: 100px;
+    padding-right: 315px;
+}
+.list-1{
+    list-style: none;
+    padding-right: 260px
+}
+.list-1 li a{
+    text-decoration: none;
+    color: black;
+}
+.list-1 li{
+    padding-bottom: 24px;
+
+}
+.list-2{
+    list-style: none;
+}
+.list-2 li a{
+    text-decoration: none;
+    color: black;
+}
+.list-2 li{
+    padding-bottom: 24px;
+
+}
+.store{
+    padding-bottom: 120px;
+}
+.list-2 li img{
+    width: 16px
+
+}
+.footer-2{
+    display: flex;   
+}
+.footer-2 a{
+    padding-right: 20px;
+}
+.col-2 li{
+    list-style: none;
+    
+}
+.col-2 a{
+    text-decoration: none;
+    color: black;
+}
+.col-2 ul{
+    display: flex;
+}
+.col-2{
+    padding-left: 780px;
+    padding-bottom: 80px;
+
+}
+.col-2-list-1{
+    padding-left: 335px;
+    padding-bottom: 20px;
+}
